@@ -26,3 +26,13 @@ p {
   margin-right:auto;
   width:50%
 }
+
+a:link, a:visited {
+  color: (internal value);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:link:active, a:visited:active {
+  color: (internal value);
+}
