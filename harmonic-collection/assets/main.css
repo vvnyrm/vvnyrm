@@ -3,21 +3,29 @@ body {
 }
 
 h1 {
-  color: #E1E1E1;
+  color: #DE4993;
+  font-family:"racing sans one";
+  font-size:700%;
+  margin-top:10px;
+  margin-bottom:30px;
 }
 
 h2 {
   color: #E1E1E1;
-  letter-spacing: 3px
+  letter-spacing: 3px;
+  font-family:"Bebas Neue"
 }
 
 h3 {
   color: 00D6A9;
   font-size:200%;
+  font-family:"Bebas Neue"
 }
 
 p {
   color: #E1E1E1;
+  font-family:"Libre Barcode 39";
+  font-size:150%;
 }
 
 .center {

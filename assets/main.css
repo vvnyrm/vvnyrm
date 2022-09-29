@@ -1,23 +1,31 @@
 body {
-  background-color: #000000;
+  background-color: #B3C4C2;
 }
 
 h1 {
-  color: #E0FF00;
+  color: #C96A00;
+  font-family:"Bebas Neue"
 }
 
 h2 {
-  color: #E1E1E1;
-  letter-spacing: 3px
+  color: #DE4993;
+  letter-spacing: 3px;
+  font-family:"racing sans one";
+  font-size:700%;
+  margin-top:10px;
+  margin-bottom:30px;
 }
 
 h3 {
   color: 7820FF;
   font-size:200%;
+  font-family:"Bebas Neue"
 }
 
 p {
   color: #E1E1E1;
+  font-family:"Libre Barcode 39";
+  font-size:150%;
 }
 
 .center {
@@ -28,11 +36,11 @@ p {
 }
 
 a:link, a:visited {
-  color: (internal value);
+  color:#2D4D4A;
   text-decoration: none;
   cursor: pointer;
 }
 
 a:link:active, a:visited:active {
-  color: (internal value);
+  color:#2D4D4A;
 }
