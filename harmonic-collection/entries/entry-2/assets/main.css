@@ -1,0 +1,55 @@
+.first {
+position: left;
+float: left;
+width: 480px;
+height: 480px;
+left: 0px;
+top: -28px;
+
+font-family: 'Racing Sans one';
+font-style: normal;
+font-weight: 400;
+font-size: 140px;
+line-height: 176px;
+opacity: 0%;
+color: #000000;
+}
+
+.first:hover {
+  position: left;
+  float: left;
+  width: 480px;
+  height: 480px;
+  left: 0px;
+  top: -28px;
+
+  font-family:"Racing Sans One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 140px;
+  line-height: 176px;
+  opacity: 100%;
+  transition-duration:5s;
+  color: #000000;
+}
+
+.second {
+  position:left;
+  width: 480px;
+  height: 480px;
+  left: 0px;
+  top: -28px;
+
+  font-family:"Racing Sans One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 140px;
+  line-height: 176px;
+  opacity: 100%;
+  color: #fff503;
+}
+
+
+h1 {
+  font-family:"Racing Sans One";
+}
