@@ -8,6 +8,7 @@ h1 {
   font-size:700%;
   margin-top:10px;
   margin-bottom:30px;
+  text-align:center;
 }
 
 h2 {
@@ -19,7 +20,8 @@ h2 {
 h3 {
   color: 00D6A9;
   font-size:200%;
-  font-family:"Bebas Neue"
+  font-family:"Bebas Neue";
+  text-align:center;
 }
 
 p {
