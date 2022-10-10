@@ -4,7 +4,8 @@ body {
 
 h1 {
   color: #C96A00;
-  font-family:"Bebas Neue"
+  font-family:"Bebas Neue";
+  text-align:center;
 }
 
 h2 {
@@ -14,6 +15,7 @@ h2 {
   font-size:700%;
   margin-top:10px;
   margin-bottom:30px;
+  text-align:center;
 }
 
 h3 {
@@ -39,6 +41,8 @@ a:link, a:visited {
   color:#7512C3;
   text-decoration: none;
   cursor: pointer;
+  text-align:center;
+  font-family:anton;
 }
 
 a:link:active, a:visited:active {
