@@ -1,0 +1,947 @@
+
+img {
+  position: absolute;
+  width: 435px;
+  height: 435px;
+  left: 503px;
+  top: 844px;
+  opacity:70%;
+}
+
+a:link, a:visited {
+  color:#000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.a {
+  position: absolute;
+  width: 167px;
+  height: 32px;
+  left: 54px;
+  top: 527px;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+.b {
+  position: absolute;
+  width: 125px;
+  height: 31px;
+  left: 179px;
+  top: 880px;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+.c {
+  position: absolute;
+  width: 178px;
+  height: 35px;
+  left: 312px;
+  top: 1577px;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+.c:hover {
+  position: absolute;
+  width: 178px;
+  height: 35px;
+  left: 312px;
+  top: 1577px;
+
+  filter:blur(30px);
+  transition-duration:5s;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+.title {
+  position: absolute;
+  width: 415px;
+  height: 84px;
+  left: 60px;
+  top: 1870px;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+
+  color: #000000;
+}
+
+.lyric {
+  position: absolute;
+  width: 761px;
+  height: 1602px;
+  left: 730px;
+  top: 350px;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: right;
+
+  color: #000000;
+}
+
+#this {
+  display:block;
+  position: absolute;
+  width: 1415px;
+  height: 238px;
+  left: 13px;
+  top: 34px;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 270px;
+
+  color: #000000;
+}
+
+#one {
+  display:none;
+  position: absolute;
+  width: 1415px;
+  height: 238px;
+  left: 13px;
+  top: 34px;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 270px;
+
+  color: #000000;
+}
+
+#isfor {
+  display:none;
+  position: absolute;
+width: 1415px;
+height: 238px;
+left: 13px;
+top: 34px;
+
+font-family: 'Abril Fatface';
+font-style: normal;
+font-weight: 400;
+font-size: 200px;
+line-height: 270px;
+
+color: #000000;
+}
+
+#you {
+  display:none;
+  position: absolute;
+  width: 1415px;
+  height: 238px;
+  left: 13px;
+  top: 34px;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 270px;
+
+  color: #000000;
+}
+
+@media screen and (min-width:1240px) {
+  img {
+    position: absolute;
+    width: 435px;
+    height: 435px;
+    left: 503px;
+    top: 844px;
+    opacity:70%;
+  }
+
+  a:link, a:visited {
+    color:#000000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .a {
+    position: absolute;
+    width: 167px;
+    height: 32px;
+    left: 54px;
+    top: 527px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #000000;
+  }
+
+  .b {
+    position: absolute;
+    width: 125px;
+    height: 31px;
+    left: 179px;
+    top: 880px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #000000;
+  }
+
+  .c {
+    position: absolute;
+    width: 178px;
+    height: 35px;
+    left: 312px;
+    top: 1577px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #000000;
+  }
+
+  .c:hover {
+    position: absolute;
+    width: 178px;
+    height: 35px;
+    left: 312px;
+    top: 1577px;
+
+    filter:blur(30px);
+    transition-duration:5s;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #000000;
+  }
+
+  .title {
+    position: absolute;
+    width: 415px;
+    height: 84px;
+    left: 60px;
+    top: 1870px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+
+    color: #000000;
+  }
+
+  .lyric {
+    position: absolute;
+    width: 761px;
+    height: 1602px;
+    left: 730px;
+    top: 350px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: right;
+
+    color: #000000;
+  }
+
+  #this {
+    display:block;
+    position: absolute;
+    width: 1415px;
+    height: 238px;
+    left: 13px;
+    top: 34px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 270px;
+
+    color: #000000;
+  }
+
+  #one {
+    display:none;
+    position: absolute;
+    width: 1415px;
+    height: 238px;
+    left: 13px;
+    top: 34px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 270px;
+
+    color: #000000;
+  }
+
+  #isfor {
+    display:none;
+    position: absolute;
+  width: 1415px;
+  height: 238px;
+  left: 13px;
+  top: 34px;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 270px;
+
+  color: #000000;
+  }
+
+  #you {
+    display:none;
+    position: absolute;
+    width: 1415px;
+    height: 238px;
+    left: 13px;
+    top: 34px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 270px;
+
+    color: #000000;
+  }
+}
+
+@media screen and (max-width:768px) {
+
+  html {
+    overflow-x:hidden;
+  }
+
+  img {
+    position: absolute;
+    width: 435px;
+    height: 435px;
+    left: 166px;
+    top: 962px;
+    opacity:70%;
+  }
+
+  a:link, a:visited {
+    color:#000000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .a {
+    position: absolute;
+    width: 347px;
+    height: 65px;
+    left: 19px;
+    top: 455px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 54px;
+
+    color: #000000;
+  }
+
+  .b {
+    position: absolute;
+    width: 299px;
+    height: 67px;
+    left: 43px;
+    top: 1370px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 54px;
+
+    color: #000000;
+  }
+
+  .c {
+    position: absolute;
+    width: 382px;
+    height: 83px;
+    left: 151px;
+    top: 2336px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+
+    color: #000000;
+  }
+
+  .c:hover {
+    position: absolute;
+    width: 382px;
+    height: 83px;
+    left: 151px;
+    top: 2336px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+
+    color: #000000;
+
+    filter:blur(30px);
+    transition-duration:5s;
+  }
+
+  .title {
+    position: absolute;
+    width: 415px;
+    height: 84px;
+    left: 51px;
+    top: 2000px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+
+    color: #CC0000;
+  }
+
+  .lyric {
+    position: absolute;
+    width: 720px;
+    height: 2780px;
+    left: 0px;
+    top: 400px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 47px;
+    text-align: right;
+
+    color: #000000;
+  }
+
+  #this {
+    display:none;
+    position: absolute;
+    width: 1415px;
+    height: 238px;
+    left: 13px;
+    top: 34px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 270px;
+
+    color: #000000;
+  }
+
+  #one {
+    display:block;
+    position: absolute;
+    width: 1415px;
+    height: 238px;
+    left: 13px;
+    top: 34px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 270px;
+
+    color: #000000;
+  }
+
+  #isfor {
+    display:none;
+    position: absolute;
+  width: 1415px;
+  height: 238px;
+  left: 13px;
+  top: 34px;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 270px;
+
+  color: #000000;
+  }
+
+  #you {
+    display:none;
+    position: absolute;
+    width: 1415px;
+    height: 238px;
+    left: 13px;
+    top: 34px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 270px;
+
+    color: #000000;
+  }
+}
+
+@media screen and (max-width:480px) {
+  html {
+    overflow-x:hidden;
+  }
+
+  img {
+    position: absolute;
+    width: 435px;
+    height: 435px;
+    left: 22px;
+    top: 1327px;
+    opacity:70%;
+  }
+
+  a:link, a:visited {
+    color:#000000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .a {
+    opacity:10%;
+    position: absolute;
+    width: 347px;
+    height: 65px;
+    left: 19px;
+    top: 455px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 54px;
+
+    color: #000000;
+  }
+
+  .b {
+    opacity:10%;
+    position: absolute;
+    width: 299px;
+    height: 67px;
+    left: 43px;
+    top: 1220px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 54px;
+
+    color: #000000;
+  }
+
+  .c {
+    opacity:10%;
+    position: absolute;
+    width: 382px;
+    height: 83px;
+    left: 151px;
+    top: 2336px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+
+    color: #000000;
+  }
+
+  .c:hover {
+    opacity:10%;
+    position: absolute;
+
+    width: 382px;
+    height: 83px;
+    left: 151px;
+    top: 2336px;
+
+    filter:blur(30px);
+    transition-duration:5s;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+
+    color: #000000;
+  }
+
+  .title {
+    position: absolute;
+    width: 415px;
+    height: 84px;
+    left: 32px;
+    top: 3016px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+
+    color: #000000;
+  }
+
+  .lyric {
+    position: absolute;
+    width: 450px;
+    height: 2418px;
+    left: 11px;
+    top: 567px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: right;
+
+    color: #000000;
+  }
+
+  #this {
+    display:none;
+    position: absolute;
+    width: 1415px;
+    height: 238px;
+    left: 13px;
+    top: 34px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 270px;
+
+    color: #000000;
+  }
+
+  #one {
+    display:none;
+    position: absolute;
+    width: 1415px;
+    height: 238px;
+    left: 13px;
+    top: 34px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 270px;
+
+    color: #000000;
+  }
+
+  #isfor {
+    display:block;
+    position: absolute;
+    width: 458px;
+    height: 517px;
+    left: 11px;
+    top: -10px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 270px;
+
+    color: #000000;
+  }
+
+  #you {
+    display:none;
+    position: absolute;
+    width: 1415px;
+    height: 238px;
+    left: 13px;
+    top: 34px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 270px;
+
+    color: #000000;
+  }
+}
+
+@media screen and (max-width:320px) {
+
+html {
+  overflow-x:hidden;
+}
+
+img {
+  position: absolute;
+  width: 364px;
+  height: 364px;
+  left: -22px;
+  top: 3232px;
+  opacity:70%;
+}
+
+a:link, a:visited {
+  color:#000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.a {
+  position: absolute;
+  width: 290px;
+  height: 56px;
+  left: 15px;
+  top: 2133px;
+  opacity:100%;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 47px;
+
+  color: #000000;
+}
+
+.b {
+  position: absolute;
+  width: 243px;
+  height: 73px;
+  left: 38px;
+  top: 2540px;
+  opacity:100%;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 54px;
+
+  color: #CC0000;
+}
+
+.c {
+  position: absolute;
+  width: 266px;
+  height: 54px;
+  left: 27px;
+  top: 3377px;
+  opacity:100%;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 47px;
+
+  color: #000000;
+}
+
+.c:hover {
+  position: absolute;
+  width: 266px;
+  height: 54px;
+  left: 27px;
+  top: 3377px;
+  opacity:100%;
+
+  filter:blur(30px);
+  transition-duration:5s;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 47px;
+
+  color: #000000;
+}
+
+.title {
+  position: absolute;
+  width: 269px;
+  height: 55px;
+  left: 25px;
+  top: 218px;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #CC0000;
+}
+
+.lyric {
+  position: absolute;
+  width: 292px;
+  height: 1929px;
+  left: 14px;
+  top: 303px;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 50px;
+  text-align: center;
+
+  color: #000000;
+}
+
+#this {
+  display:none;
+  position: absolute;
+  width: 1415px;
+  height: 238px;
+  left: 13px;
+  top: 34px;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 270px;
+
+  color: #000000;
+}
+
+#one {
+  display:none;
+  position: absolute;
+  width: 1415px;
+  height: 238px;
+  left: 13px;
+  top: 34px;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 270px;
+
+  color: #000000;
+}
+
+#isfor {
+  display:none;
+  position: absolute;
+  width: 458px;
+  height: 517px;
+  left: 11px;
+  top: -10px;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 270px;
+
+  color: #000000;
+}
+
+#you {
+  display:block;
+  position: absolute;
+  width: 289px;
+  height: 217px;
+  left: 15px;
+  top: 0px;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 170px;
+  line-height: 229px;
+
+  color: #CC0000;
+}
+}
