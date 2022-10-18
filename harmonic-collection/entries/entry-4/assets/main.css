@@ -167,7 +167,7 @@ color: #000000;
 
 #you {
   display:none;
-  position: absolute;
+  position:absolute;
   width: 1415px;
   height: 238px;
   left: 13px;
@@ -830,9 +830,6 @@ a:link, a:visited {
   left: 27px;
   top: 3377px;
   opacity:100%;
-
-  filter:blur(30px);
-  transition-duration:5s;
 
   font-family: 'Abril Fatface';
   font-style: normal;
