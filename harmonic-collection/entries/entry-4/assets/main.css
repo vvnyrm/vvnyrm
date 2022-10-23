@@ -1,6 +1,5 @@
 
 img {
-  position: absolute;
   width: 435px;
   height: 435px;
   left: 503px;
@@ -15,7 +14,6 @@ a:link, a:visited {
 }
 
 .a {
-  position: absolute;
   width: 167px;
   height: 32px;
   left: 54px;
@@ -31,7 +29,6 @@ a:link, a:visited {
 }
 
 .b {
-  position: absolute;
   width: 125px;
   height: 31px;
   left: 179px;
@@ -47,7 +44,6 @@ a:link, a:visited {
 }
 
 .c {
-  position: absolute;
   width: 178px;
   height: 35px;
   left: 312px;
@@ -63,7 +59,6 @@ a:link, a:visited {
 }
 
 .c:hover {
-  position: absolute;
   width: 178px;
   height: 35px;
   left: 312px;
@@ -81,24 +76,7 @@ a:link, a:visited {
   color: #000000;
 }
 
-.title {
-  position: absolute;
-  width: 415px;
-  height: 84px;
-  left: 60px;
-  top: 1870px;
-
-  font-family: 'Abril Fatface';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 40px;
-
-  color: #000000;
-}
-
 .lyric {
-  position: absolute;
   width: 761px;
   height: 1602px;
   left: 730px;
@@ -114,9 +92,24 @@ a:link, a:visited {
   color: #000000;
 }
 
+.title {
+  width: 415px;
+  height: 84px;
+  left: 60px;
+  top: 1870px;
+
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+
+  color: #000000;
+}
+
+
 #this {
   display:block;
-  position: absolute;
   width: 1415px;
   height: 238px;
   left: 13px;
@@ -133,7 +126,6 @@ a:link, a:visited {
 
 #one {
   display:none;
-  position: absolute;
   width: 1415px;
   height: 238px;
   left: 13px;
@@ -150,7 +142,6 @@ a:link, a:visited {
 
 #isfor {
   display:none;
-  position: absolute;
 width: 1415px;
 height: 238px;
 left: 13px;
@@ -167,7 +158,6 @@ color: #000000;
 
 #you {
   display:none;
-  position:absolute;
   width: 1415px;
   height: 238px;
   left: 13px;
@@ -184,12 +174,13 @@ color: #000000;
 
 @media screen and (min-width:1240px) {
   img {
-    position: absolute;
     width: 435px;
     height: 435px;
-    left: 503px;
-    top: 844px;
     opacity:70%;
+
+    display:block;
+    margin-left:none;
+    margin-right:none;
   }
 
   a:link, a:visited {
@@ -199,7 +190,6 @@ color: #000000;
   }
 
   .a {
-    position: absolute;
     width: 167px;
     height: 32px;
     left: 54px;
@@ -215,7 +205,6 @@ color: #000000;
   }
 
   .b {
-    position: absolute;
     width: 125px;
     height: 31px;
     left: 179px;
@@ -231,7 +220,6 @@ color: #000000;
   }
 
   .c {
-    position: absolute;
     width: 178px;
     height: 35px;
     left: 312px;
@@ -247,7 +235,6 @@ color: #000000;
   }
 
   .c:hover {
-    position: absolute;
     width: 178px;
     height: 35px;
     left: 312px;
@@ -266,7 +253,6 @@ color: #000000;
   }
 
   .title {
-    position: absolute;
     width: 415px;
     height: 84px;
     left: 60px;
@@ -282,11 +268,8 @@ color: #000000;
   }
 
   .lyric {
-    position: absolute;
     width: 761px;
     height: 1602px;
-    left: 730px;
-    top: 350px;
 
     font-family: 'Abril Fatface';
     font-style: normal;
@@ -298,9 +281,23 @@ color: #000000;
     color: #000000;
   }
 
+  .title {
+    width: 415px;
+    height: 84px;
+    left: 60px;
+    top: 1870px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+
+    color: #000000;
+  }
+
   #this {
     display:block;
-    position: absolute;
     width: 1415px;
     height: 238px;
     left: 13px;
@@ -317,7 +314,6 @@ color: #000000;
 
   #one {
     display:none;
-    position: absolute;
     width: 1415px;
     height: 238px;
     left: 13px;
@@ -334,7 +330,6 @@ color: #000000;
 
   #isfor {
     display:none;
-    position: absolute;
   width: 1415px;
   height: 238px;
   left: 13px;
@@ -351,7 +346,6 @@ color: #000000;
 
   #you {
     display:none;
-    position: absolute;
     width: 1415px;
     height: 238px;
     left: 13px;
@@ -370,11 +364,10 @@ color: #000000;
 @media screen and (max-width:768px) {
 
   html {
-    overflow-x:hidden;
+
   }
 
   img {
-    position: absolute;
     width: 435px;
     height: 435px;
     left: 166px;
@@ -389,7 +382,6 @@ color: #000000;
   }
 
   .a {
-    position: absolute;
     width: 347px;
     height: 65px;
     left: 19px;
@@ -405,7 +397,6 @@ color: #000000;
   }
 
   .b {
-    position: absolute;
     width: 299px;
     height: 67px;
     left: 43px;
@@ -421,7 +412,6 @@ color: #000000;
   }
 
   .c {
-    position: absolute;
     width: 382px;
     height: 83px;
     left: 151px;
@@ -437,7 +427,6 @@ color: #000000;
   }
 
   .c:hover {
-    position: absolute;
     width: 382px;
     height: 83px;
     left: 151px;
@@ -456,7 +445,6 @@ color: #000000;
   }
 
   .title {
-    position: absolute;
     width: 415px;
     height: 84px;
     left: 51px;
@@ -472,7 +460,6 @@ color: #000000;
   }
 
   .lyric {
-    position: absolute;
     width: 720px;
     height: 2780px;
     left: 0px;
@@ -490,7 +477,6 @@ color: #000000;
 
   #this {
     display:none;
-    position: absolute;
     width: 1415px;
     height: 238px;
     left: 13px;
@@ -507,7 +493,6 @@ color: #000000;
 
   #one {
     display:block;
-    position: absolute;
     width: 1415px;
     height: 238px;
     left: 13px;
@@ -524,7 +509,6 @@ color: #000000;
 
   #isfor {
     display:none;
-    position: absolute;
   width: 1415px;
   height: 238px;
   left: 13px;
@@ -541,7 +525,6 @@ color: #000000;
 
   #you {
     display:none;
-    position: absolute;
     width: 1415px;
     height: 238px;
     left: 13px;
@@ -559,11 +542,10 @@ color: #000000;
 
 @media screen and (max-width:480px) {
   html {
-    overflow-x:hidden;
+
   }
 
   img {
-    position: absolute;
     width: 435px;
     height: 435px;
     left: 22px;
@@ -579,7 +561,6 @@ color: #000000;
 
   .a {
     opacity:10%;
-    position: absolute;
     width: 347px;
     height: 65px;
     left: 19px;
@@ -596,7 +577,6 @@ color: #000000;
 
   .b {
     opacity:10%;
-    position: absolute;
     width: 299px;
     height: 67px;
     left: 43px;
@@ -613,7 +593,6 @@ color: #000000;
 
   .c {
     opacity:10%;
-    position: absolute;
     width: 382px;
     height: 83px;
     left: 151px;
@@ -630,7 +609,6 @@ color: #000000;
 
   .c:hover {
     opacity:10%;
-    position: absolute;
 
     width: 382px;
     height: 83px;
@@ -650,7 +628,6 @@ color: #000000;
   }
 
   .title {
-    position: absolute;
     width: 415px;
     height: 84px;
     left: 32px;
@@ -666,7 +643,6 @@ color: #000000;
   }
 
   .lyric {
-    position: absolute;
     width: 450px;
     height: 2418px;
     left: 11px;
@@ -684,7 +660,6 @@ color: #000000;
 
   #this {
     display:none;
-    position: absolute;
     width: 1415px;
     height: 238px;
     left: 13px;
@@ -701,7 +676,6 @@ color: #000000;
 
   #one {
     display:none;
-    position: absolute;
     width: 1415px;
     height: 238px;
     left: 13px;
@@ -718,7 +692,6 @@ color: #000000;
 
   #isfor {
     display:block;
-    position: absolute;
     width: 458px;
     height: 517px;
     left: 11px;
@@ -735,7 +708,6 @@ color: #000000;
 
   #you {
     display:none;
-    position: absolute;
     width: 1415px;
     height: 238px;
     left: 13px;
@@ -754,11 +726,10 @@ color: #000000;
 @media screen and (max-width:320px) {
 
 html {
-  overflow-x:hidden;
+
 }
 
 img {
-  position: absolute;
   width: 364px;
   height: 364px;
   left: -22px;
@@ -773,7 +744,6 @@ a:link, a:visited {
 }
 
 .a {
-  position: absolute;
   width: 290px;
   height: 56px;
   left: 15px;
@@ -790,7 +760,6 @@ a:link, a:visited {
 }
 
 .b {
-  position: absolute;
   width: 243px;
   height: 73px;
   left: 38px;
@@ -807,7 +776,6 @@ a:link, a:visited {
 }
 
 .c {
-  position: absolute;
   width: 266px;
   height: 54px;
   left: 27px;
@@ -824,7 +792,6 @@ a:link, a:visited {
 }
 
 .c:hover {
-  position: absolute;
   width: 266px;
   height: 54px;
   left: 27px;
@@ -841,7 +808,6 @@ a:link, a:visited {
 }
 
 .title {
-  position: absolute;
   width: 269px;
   height: 55px;
   left: 25px;
@@ -858,7 +824,6 @@ a:link, a:visited {
 }
 
 .lyric {
-  position: absolute;
   width: 292px;
   height: 1929px;
   left: 14px;
@@ -876,7 +841,6 @@ a:link, a:visited {
 
 #this {
   display:none;
-  position: absolute;
   width: 1415px;
   height: 238px;
   left: 13px;
@@ -893,7 +857,6 @@ a:link, a:visited {
 
 #one {
   display:none;
-  position: absolute;
   width: 1415px;
   height: 238px;
   left: 13px;
@@ -910,7 +873,6 @@ a:link, a:visited {
 
 #isfor {
   display:none;
-  position: absolute;
   width: 458px;
   height: 517px;
   left: 11px;
@@ -927,7 +889,6 @@ a:link, a:visited {
 
 #you {
   display:block;
-  position: absolute;
   width: 289px;
   height: 217px;
   left: 15px;
