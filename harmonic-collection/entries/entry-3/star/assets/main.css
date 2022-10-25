@@ -1,3 +1,5 @@
+
+
 body {
   background-image: radial-gradient(#0bf8c1,#738ec6,#de4993);
   background-repeat: no-repeat;
@@ -5,7 +7,6 @@ body {
   height: 100%;
   margin:0px;
   padding:0px;
-  overflow-y: auto;
   overflow-x:hidden;
 }
 
