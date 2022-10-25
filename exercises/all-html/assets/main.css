@@ -53,3 +53,25 @@ a:link:active, a:visited:active {
   margin-top: 5%;
   margin-left: 30%;
 }
+
+.stitch:hover {
+  opacity: 0%;
+  transition: 2s;
+}
+
+.tab1 {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.tab1:hover, .tab1:focus, .tab1:active {
+  -webkit-transform: translateY(8px);
+  transform: translateY(8px);
+}
