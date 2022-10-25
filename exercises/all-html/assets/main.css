@@ -8,7 +8,7 @@ h1 {
 }
 
 h2 {
-  color: #DE4993;
+  color: #E1E1E1;
   letter-spacing: 3px;
   font-family:"racing sans one";
   font-size:700%;
@@ -36,11 +36,20 @@ p {
 }
 
 a:link, a:visited {
-  color: (internal value);
+  color: #E1E1E1;
   text-decoration: none;
   cursor: pointer;
 }
 
 a:link:active, a:visited:active {
-  color: (internal value);
+  color: #D31708;
+}
+
+.stitch {
+  position: absolute;
+  width: 600px;
+  height: 15px;
+  background-color: #D31708;
+  margin-top: 5%;
+  margin-left: 30%;
 }

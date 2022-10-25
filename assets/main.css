@@ -1,50 +1,100 @@
 body {
-  background-color: #7ED0F9;
+  background-color: #4FC5CC;
+  height: 1440px;
+  overflow-x: hidden;
 }
 
 h1 {
-  color: #C96A00;
-  font-family:"Bebas Neue";
+  color: #086E75;
+  font-family:"racing sans One";
   text-align:center;
 }
 
 h2 {
-  color: #DE4993;
+  color: #000000;
   letter-spacing: 3px;
   font-family:"racing sans one";
-  font-size:700%;
+  font-size:900%;
   margin-top:10px;
   margin-bottom:30px;
-  text-align:center;
+
 }
 
 h3 {
-  color: 7820FF;
-  font-size:200%;
+  font-size:300%;
   font-family:"Bebas Neue"
 }
 
 p {
-  color: #E1E1E1;
-  font-family:"Libre Barcode 39";
-  font-size:150%;
+
 }
 
-.center {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  width:50%
+.highlight1 {
+  position: absolute;
+  width:1078px;
+  height: 89px;
+  background-color: #E1E1E1;
+  margin-left: -15%;
+  margin-top: 19%;
+  z-index: -1;
+}
+
+.highlight2 {
+  position: absolute;
+  width:1078px;
+  height: 89px;
+  background-color: #E1E1E1;
+  margin-left: 40%;
+  margin-top: 63%;
+  z-index: -1;
 }
 
 a:link, a:visited {
-  color:#7512C3;
+  color:#000000;
   text-decoration: none;
   cursor: pointer;
-  text-align:center;
   font-family:anton;
 }
 
 a:link:active, a:visited:active {
-  color:#2D4D4A;
+  color:#E1E1E1;
+}
+
+a:hover {
+  filter:blur(10px);
+  transition: 5s;
+}
+
+.barcode {
+  color: #E1E1E1;
+  font-family:"Libre Barcode 39";
+  font-size:150%;
+  text-align: center;
+}
+
+.barcode:hover {
+  color: #5D2CEC;
+  font-family:"Bebas Neue";
+  font-size:150%;
+  text-align: center;
+  transition: 5s;
+}
+
+.exercises {
+  text-align: left;
+  z-index: 1;
+}
+
+.project {
+  text-align: right;
+}
+
+.entry {
+  text-align: left;
+  margin-left: 5%;
+}
+
+.collection {
+  text-align: right;
+  margin-right: 5%;
 }
