@@ -1,11 +1,11 @@
 body {
-  background-color: #4FC5CC;
+  background-color: #523889;
   height: 1440px;
   overflow-x: hidden;
 }
 
 h1 {
-  color: #086E75;
+  color: #108A92;
   font-family:"racing sans One";
   text-align:center;
 }
@@ -73,7 +73,7 @@ a:hover {
 }
 
 .barcode:hover {
-  color: #5D2CEC;
+  color: #6142A2;
   font-family:"Bebas Neue";
   font-size:150%;
   text-align: center;
