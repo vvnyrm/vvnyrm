@@ -1,0 +1,149 @@
+html {
+  background-color: #000000;
+}
+
+h1 {
+  color: #E0FF00;
+  font-family:"Bebas Neue";
+  text-align: center;
+}
+
+h2 {
+  color: #E1E1E1;
+  letter-spacing: 3px;
+  font-family:"racing sans one";
+  font-size:700%;
+  margin-top:10px;
+  margin-bottom:30px;
+  text-align: center;
+}
+
+h3 {
+  color: 7820FF;
+  font-size:200%;
+  font-family:"Bebas Neue";
+  text-align: center;
+}
+
+p {
+  color: #E1E1E1;
+  font-family:"Libre Barcode 39";
+  font-size:150%;
+  text-align: center;
+}
+
+.center {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%
+}
+
+a:link, a:visited {
+  color: #E1E1E1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:link:active, a:visited:active {
+  color: #D31708;
+}
+
+.stitch {
+  position: absolute;
+  width: 600px;
+  height: 15px;
+  background-color: #D31708;
+  margin-top: 5%;
+  margin-left: 30%;
+}
+
+.stitch:hover {
+  opacity: 0%;
+  transition: 2s;
+}
+
+.tab1 {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.tab1:hover, .tab1:focus, .tab1:active {
+  -webkit-transform: translateY(8px);
+  transform: translateY(8px);
+}
+
+.tab2 {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.tab2:hover, .tab2:focus, .tab2:active {
+  -webkit-transform: translateY(8px);
+  transform: translateY(8px);
+}
+
+.tab3 {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.tab3:hover, .tab3:focus, .tab3:active {
+  -webkit-transform: translateY(8px);
+  transform: translateY(8px);
+}
+
+.tab4 {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.tab4:hover, .tab4:focus, .tab4:active {
+  -webkit-transform: translateY(8px);
+  transform: translateY(8px);
+}
+
+.tab5 {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.tab5:hover, .tab5:focus, .tab5:active {
+  -webkit-transform: translateY(8px);
+  transform: translateY(8px);
+}
