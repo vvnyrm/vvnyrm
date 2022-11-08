@@ -1,0 +1,105 @@
+html {
+  background-color: #CECEC6;
+  overflow: hidden;
+}
+
+h1 {
+  top: calc(50% - 100px);
+  font-family: Alfa Slab One;
+  font-size: 50px;
+}
+
+.player {
+  width: 80vw;
+  height: 100vh;
+  position: relative;
+}
+
+#motion div {
+  position: absolute;
+  	transform-origin: center left;
+}
+
+#circle1 {
+  left: calc(50% - 125px);
+  top: calc(50% - 275px);
+
+  background-color: #000000;
+
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+
+}
+
+#record {
+  left: calc(50% - 100px);
+  top: calc(50% - 250px);
+
+  transform-origin: center;
+
+  animation: rotating 60s linear infinite;
+  animation-delay: 2s;
+}
+
+#circle2 {
+  left: calc(50% + 76px);
+  top: calc(50% - 75px);
+
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  animation: colour 8s steps(4, start) infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+#playhead {
+  left: calc(50% - 200px);
+  top: calc(50% - 300px);
+
+  width: 25px;
+  height: 500px;
+
+  background: white;
+
+  transform-origin: top left;
+  transition: transform .5s ease-in-out;
+  transition-duration: .5s;
+}
+
+#playhead:hover {
+  cursor: pointer;
+  transform-origin: top left;
+}
+
+#playhead:active {
+  transform-origin: top left;
+  transform: rotate(-30deg);
+  transition-duration: 3s;
+}
+
+@keyframes colour {
+  0% {
+   background-color: #E9E99D;
+ }
+ 50% {
+   background-color: #F3BAA8;
+ }
+
+   100% {
+   background-color: #A8F3F1;
+ }
+}
+
+@keyframes rotating {
+  from {
+    transform-origin: center;
+    transform: rotate(0deg);
+  }
+  to {
+    transform-origin: center;
+    transform: rotate(360deg);
+  }
+}
