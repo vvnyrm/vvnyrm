@@ -6,6 +6,16 @@ body {
   overflow-x: hidden;
 }
 
+a:link, a:visited {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:link:active, a:visited:active {
+  color: #000000;
+}
+
 h1 {
   font-family: abril Fatface;
   font-size: 100px;
