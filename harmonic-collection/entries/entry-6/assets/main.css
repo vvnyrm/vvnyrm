@@ -34,7 +34,7 @@ a:link:active, a:visited:active {
 
 #motion div {
   position: absolute;
-  	transform-origin: center left;
+  transform-origin: center left;
 }
 
 #circle1 {

@@ -1,0 +1,51 @@
+html {
+
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: abril Fatface;
+  font-size: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.intropara {
+  font-family: courier;
+  font-size: 20px;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+#therefore {
+  animation: rotating 60s linear infinite;
+  animation-delay: 2s;
+}
+
+#badguy {
+  animation: rotating 60s linear infinite;
+  animation-delay: 2s;
+}
+
+#copycat {
+  animation: rotating 60s linear infinite;
+  animation-delay: 2s;
+}
+
+@keyframes rotating {
+  from {
+    transform-origin: center;
+    transform: rotate(0deg);
+  }
+  to {
+    transform-origin: center;
+    transform: rotate(360deg);
+  }
+}
