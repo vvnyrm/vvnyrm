@@ -1,0 +1,32 @@
+html {
+
+}
+
+body {
+  background-color: #000000;
+}
+
+h1 {
+  font-family: abril fatface;
+  color: #E1E1E1;
+  font-size: 100px;
+
+  margin-top: -10px;
+  margin-left: 40px;
+}
+
+p {
+  color: #E1E1E1;
+  font-family: courier;
+  font-size: 30px;
+
+  margin-left: 40px;
+}
+
+.grid {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

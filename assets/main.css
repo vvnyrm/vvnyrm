@@ -1,0 +1,100 @@
+body {
+  background-color: #523889;
+  height: 1440px;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: #108A92;
+  font-family:"racing sans One";
+  text-align:center;
+}
+
+h2 {
+  color: #000000;
+  letter-spacing: 3px;
+  font-family:"racing sans one";
+  font-size:900%;
+  margin-top:10px;
+  margin-bottom:30px;
+
+}
+
+h3 {
+  font-size:300%;
+  font-family:"Bebas Neue";
+}
+
+p {
+
+}
+
+.highlight1 {
+  position: absolute;
+  width:1078px;
+  height: 89px;
+  background-color: #E1E1E1;
+  margin-left: -15%;
+  margin-top: 19%;
+  z-index: -1;
+}
+
+.highlight2 {
+  position: absolute;
+  width:1078px;
+  height: 89px;
+  background-color: #E1E1E1;
+  margin-left: 40%;
+  margin-top: 63%;
+  z-index: -1;
+}
+
+a:link, a:visited {
+  color:#000000;
+  text-decoration: none;
+  cursor: pointer;
+  font-family:anton;
+}
+
+a:link:active, a:visited:active {
+  color:#E1E1E1;
+}
+
+a:hover {
+  filter:blur(10px);
+  transition: 5s;
+}
+
+.barcode {
+  color: #E1E1E1;
+  font-family:"Libre Barcode 39";
+  font-size:150%;
+  text-align: center;
+}
+
+.barcode:hover {
+  color: #6142A2;
+  font-family:"Bebas Neue";
+  font-size:150%;
+  text-align: center;
+  transition: 5s;
+}
+
+.exercises {
+  text-align: left;
+  z-index: 1;
+}
+
+.project {
+  text-align: right;
+}
+
+.entry {
+  text-align: left;
+  margin-left: 5%;
+}
+
+.collection {
+  text-align: right;
+  margin-right: 5%;
+}

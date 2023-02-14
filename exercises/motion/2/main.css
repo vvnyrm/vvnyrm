@@ -1,0 +1,24 @@
+body {
+    animation: change-color 1s steps(4, start) infinite;;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes change-color {
+   0% {
+    background-color: #5A1DDA;
+  }
+  50% {
+    background-color: #F736C4;
+  }
+
+    100% {
+    background-color: #F7A936;
+  }
+}
+
+h1 {
+ font-family: Racing Sans One;
+ Font-size: 300px;
+ text-align: center;
+}
